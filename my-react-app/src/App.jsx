@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+  // yes I am aware this is public. 
   const API_KEY = 'e858e4afd001a4db65bcf425d55470c9'; 
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
